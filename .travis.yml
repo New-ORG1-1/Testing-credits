@@ -1,7 +1,6 @@
-jobs:
-  include:
-    - os: windows
-      language: python
-      python: "3.8"
-      script:
-        - python hello_world.py
+os: 
+  - windows
+vm:
+  size: large
+script:
+  - echo "Hello World"
